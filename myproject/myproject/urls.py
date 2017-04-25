@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.lista_paginas),
     url(r'^(.+)$', views.url_acortada),
+    
 ]
